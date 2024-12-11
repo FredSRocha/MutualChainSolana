@@ -1,0 +1,21 @@
+{
+  "name": "solana_mutual_compliance",
+  "version": "1.0.0",
+  "description": "MutualChain - backend para garantir a conformidade de entidades mutualistas com as regulamentações do setor de seguros no Brasil.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@solana/web3.js": "^1.67.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.0"
+  }
+}
